@@ -78,4 +78,4 @@ vim.o.pumheight = 10
 vim.o.clipboard = "unnamedplus"
 
 -- colortheme setting
-vim.cmd [[colorscheme moonfly]]
+--vim.cmd [[colorscheme moonfly]]

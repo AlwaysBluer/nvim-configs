@@ -23,8 +23,8 @@ return {
                             text_align = "left",
                             separator = true,
                         }
-                    },
-                }
+                    }
+                },
             })
         end
     }

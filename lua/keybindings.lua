@@ -29,8 +29,25 @@ map("n", "<C-n>", ":NvimTreeToggle<CR>", opt)
 --map("n", "<leader>h", ":TSBufToggle highlight<CR>", opt)
 
 --bufferline remapping
-
+--map("n", ":bd<CR>", ":bdelete<CR>", opt)
 map("n", "<leader>j", ":BufferLineCycleNext<CR>", opt)
 map("n", "<leader>k", ":BufferLineCyclePrev<CR>", opt)
-map("n", "<leader>db", ":bdelete<CR>", opt)
-map("n", "<leader>gb", ":BufferLinePick<CR>", opt)
+map("n", ":gb", ":BufferLinePick<CR>", opt)
+map("n", ":gd", ":BufferLinePickClose<CR>", opt)
+map("n", ":gt", ":BufferLineCloseLeft<CR>", opt)
+
+-- switch between buffers 
+map("n", "<leader>1", ":BufferLineGoToBuffer 1<CR>", opt)
+map("n", "<leader>2", ":BufferLineGoToBuffer 2<CR>", opt)
+map("n", "<leader>3", ":BufferLineGoToBuffer 3<CR>", opt)
+map("n", "<leader>4", ":BufferLineGoToBuffer 4<CR>", opt)
+map("n", "<leader>5", ":BufferLineGoToBuffer 5<CR>", opt)
+map("n", "<leader>6", ":BufferLineGoToBuffer 6<CR>", opt)
+map("n", "<leader>7", ":BufferLineGoToBuffer 7<CR>", opt)
+map("n", "<leader>8", ":BufferLineGoToBuffer 8<CR>", opt)
+map("n", "<leader>9", ":BufferLineGoToBuffer 9<CR>", opt)
+map("n", "<leader>10", ":BufferLineGoToBuffer 10<CR>", opt)
+map("n", "<leader>$", ":BufferLineGoToBuffer -1<CR>", opt)
+
+
+
